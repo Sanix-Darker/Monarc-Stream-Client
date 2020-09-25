@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Monarc Stream Client">
+    <meta name="author" content="@sanixdarker">
+    <meta name="keywords" content="Monarc Stream Client">
+
+    <!-- Title Page-->
+    <title>Monarc-Stream-Client</title>
+
+    <!-- Main CSS-->
+    <link href="/static/css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-dark p-t-100 p-b-50">
+        <div class="wrapper wrapper--w900">
+            <div class="card card-6">
+                <div class="card-heading">
+                    <h2 class="title">Monarc-Stream-Client</h2>
+                </div>
+                <div class="card-body">
+                    <div class="form-row">
+                        <div class="name">FILE PATH </div>
+                        <div class="value">
+                            <input class="input--style-6" type="text" id="file_path" placeholder="Ex: /home/darker/video.mp4 ">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">STREAM LINK </div>
+                        <div class="value">
+                            <input class="input--style-6" type="text" id="stream_link" placeholder="Ex: rtmp://-------/live2">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">STREAM KEY </div>
+                        <div class="value">
+                            <input class="input--style-6" type="text" id="stream_key" placeholder="- - - - - - - ">
+                        </div>
+                    </div>
+                </div>
+                <div id="record" class="form-row"></div>
+                <div class="card-footer">
+                    <button class="btn btn--radius-2 btn--blue-2" type="button" onclick="publish_stream()">START STREAMING</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JS-->
+    <script src="/static/js/main.js"></script>
+
+</body>
+
+</html>

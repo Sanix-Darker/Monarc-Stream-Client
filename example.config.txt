@@ -1,0 +1,2 @@
+[conf]
+SECRET_KEY=the_secret_key

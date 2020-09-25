@@ -1,0 +1,9 @@
+config.txt
+.history
+.idea
+.vscode
+*__pycache__
+venv
+geckodriver.log
+*.log
+bin/*
