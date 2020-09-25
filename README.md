@@ -1,6 +1,8 @@
 # Monarc-Stream-Client
 
-A Streamer client using ffmpeg bindings
+A Streamer client application using ffmpeg bindings...
+
+![demo](./images/demo.png)
 
 
 ## Requirements
@@ -9,6 +11,8 @@ A Streamer client using ffmpeg bindings
 
 
 ## How to install
+
+- First you need to install [ffmpeg](https://ffmpeg.org/download.html), depending on your system.
 
 - Create your virtual environment
 ```
