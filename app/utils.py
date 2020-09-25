@@ -1,6 +1,5 @@
 # coding: utf-8
 
-from app.settings import SECRET_KEY
 import sys, traceback
 from os import system
 
